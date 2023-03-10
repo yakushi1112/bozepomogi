@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="auth.html">
+        <input type="text" 
+        required
+        name="login" placeholder="Логин">
+        <br>
+        <input type="email" name="email" placeholder="Почта">
+        <br>
+        <input type="password" name="password" placeholder="Пароль">
+        <br>
+        <input type="checkbox" name="eula_agree">Согласен на отбработку ПД
+        <br>
+        
+        <input type="text"
+            pattern="\+7\d{3}-\d{3}-\d{2}-\d{2}">
+            <p>Введите число!</p>
+
+            <input type="number"
+                min="-50"
+                max="50"
+                value="12"
+                name="number_age">
+            <select name="city" id="">
+                <option value="samara">Самара</option>
+                <option value="toljati">Кореновск</option>
+                <option value="moscow">Оренбург</option>
+            </select>  
+            
+            <p>Выберите пол</p>
+            <input type="radio" name="pol" id="pol">М
+            <input type="radio" name="pol" id="pol">Ж
+
+            <p>Выберите язык программирования</p>
+            <input type="radio" id="pogrammer" name="tech">C# 
+            <input type="radio" id="pogrammer" name="tech">JS
+            <input type="radio" id="pogrammer" name="tech">Py
+            <input type="radio" id="pogrammer" name="tech">Rubi
+
+            <input type="date" name="birthday" id="">
+            <input type="time" name="time" id="">
+
+            <input type="file" name="files">
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Войти">
+
+    </form>
+</body>
+</html>
