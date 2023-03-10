@@ -1,0 +1,27 @@
+.button {
+
+}
+
+.button:link {
+    color :chocolate);
+}
+
+.button:visited {
+    color:rgb(255, 0, 0);
+}
+
+.button:hover {
+    color: rgb(60, 255,0);
+
+}
+.button:lang(ru) {
+    font-weight: 100;
+}
+
+.button:lang(en) {
+    font-weight: 800;
+}
+
+.button {
+    border: 1px solid darkcyan
+}
