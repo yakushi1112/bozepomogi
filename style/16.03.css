@@ -1,4 +1,4 @@
-div {
+    div {
         height: 50px;
         background: lightblue;
     }
@@ -24,13 +24,8 @@ div {
     }
     
     @font-face {
-        font-family: "MyFont";
-        src: url(../fonts/Montserrat-SemiBold.ttf);
-    }
-    
-    @font-face {
-        font-family: "MyFont1";
-        src: url(../fonts/BebasNeue-Regular.ttf);
+        font-family: "MyfontTest";
+        src: url(../fonts/Mistral.ttf);
     }
     
     #p1,#p2,#p3 {
