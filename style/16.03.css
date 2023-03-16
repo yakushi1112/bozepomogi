@@ -1,0 +1,44 @@
+div {
+        height: 50px;
+        background: lightblue;
+    }
+    
+    #p1 {
+        float: left;
+        margin-left: 10px;
+    }
+    
+    #p2 {
+        float: left;
+        margin-left: 20px;
+    }
+    
+    #p3 {
+        float: left;
+        margin-left: 30px;
+    }
+    
+    #p4 {
+        float: left;
+        margin-left: 40px;
+    }
+    
+    @font-face {
+        font-family: "MyFont";
+        src: url(../fonts/Montserrat-SemiBold.ttf);
+    }
+    
+    @font-face {
+        font-family: "MyFont1";
+        src: url(../fonts/BebasNeue-Regular.ttf);
+    }
+    
+    #p1,#p2,#p3 {
+        font-family: "MyFont";
+        color: brown;
+    }
+    
+    #p4 {
+        font-family: "MyFont1";
+        color: red;
+    }

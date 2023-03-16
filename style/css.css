@@ -12,6 +12,7 @@ body{
     margin: 30px;
 }
 
+
 #no{
     color: rgb(175, 22, 22);
     text-decoration: none;
@@ -43,4 +44,5 @@ body{
     border: 2px solid rgb(48, 175, 22);
     background-color: rgb(31, 119, 13);
 }
+
 
